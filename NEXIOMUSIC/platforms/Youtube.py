@@ -30,12 +30,7 @@ async def shell_cmd(cmd):
 
 async def get_stream_url(query, video=False):
 
-    api_base = "http://80.211.130.157:1470"
-    api_key = "SANATANI_TECH"
-    endpoint = "/video" if video else "/audio"
-    api_url = f"{api_base}{endpoint}"
-
-    async with httpx.AsyncClient(timeout=120) as client:
+    api_base =  as client:
         params = {"url": query, "api_key": api_key}
         try:
             response = await client.get(api_url, params=params)
