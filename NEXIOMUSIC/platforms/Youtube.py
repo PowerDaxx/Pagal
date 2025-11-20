@@ -45,7 +45,6 @@ async def get_stream_url(query, video=False):
             print(f"Error calling YouTube API: {e}")
             return ""
 
-
 class YouTubeAPI:
     def __init__(self):
         self.base = "https://www.youtube.com/watch?v="
