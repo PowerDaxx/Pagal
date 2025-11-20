@@ -8,7 +8,7 @@ import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from py_yt import VideosSearch
-from ShrutiMusic.utils.database import is_on_off
+from NEXIOMUSIC.utils.database import is_on_off
 from NEXIOMUSIC import app
 from NEXIOMUSIC.utils.formatters import time_to_seconds
 import random
