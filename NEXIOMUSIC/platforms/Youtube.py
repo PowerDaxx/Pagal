@@ -30,7 +30,7 @@ async def shell_cmd(cmd):
 
 async def get_stream_url(query, video=False):
 
-    api_base =  as client:
+    async with httpx.AsyncClient() as client:
         params = {"url": query, "api_key": api_key}
         try:
             response = await client.get(api_url, params=params)
