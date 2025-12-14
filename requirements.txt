@@ -45,4 +45,4 @@ wget
 yt-dlp
 youtube-search
 youtube-search-python
-py-yt
+py-yt==0.2.2
