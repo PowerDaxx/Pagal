@@ -32,7 +32,7 @@ pyshorteners
 pyttsx3
 pytz
 pytube
-pytgcalls==0.9.7
+pytgcalls==3.0.0.dev24
 pyyaml==6.0.2
 requests
 search_engine_parser
